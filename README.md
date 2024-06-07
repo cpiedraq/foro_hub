@@ -16,7 +16,15 @@ Este Web API permite consultar, crear, modificar y eliminar tópicos, respuestas
 
 A continuaciòn se adjuntan diversas imagenes del proyecto:
 
+- Entorno de desarrollo
+
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/0.png" alt="Entorno de desarrollo">
+
+- Métodos del Web API, documentación mediante Swagger UI
+
+<img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/1.png" alt="Metodos 1">
+
+<img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/2.png" alt="Metodos 2">
 
 ------------------------
 
