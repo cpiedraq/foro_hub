@@ -7,9 +7,9 @@ Foro Hub es un Web API :globe_with_meridians: creado en Java Spring, que se basa
 Este API se conecta a una base de datos MySQL, la cuàl contiene una serie de tablas, se detallan a continuación: 
 
 1. Tabla course :blue_book:: Contiene los cursos que se imparten en el foro.
-2. Tabla status: Contiene el estado de los tópicos (Active, Inactive)
+2. Tabla status :green_circle::red_circle:: Contiene el estado de los tópicos (Active, Inactive)
 3. Tabla profile :briefcase:: Contiene los diferentes tipos de perfiles de los usuarios (Administrator, Expert, Junior)
-4. Tabla user: Contiene los usuarios que crean tópicos, respuestas a esos tópicos.
+4. Tabla user :pouting_man:: Contiene los usuarios que crean tópicos, respuestas a esos tópicos.
 5. Tabla topic :notebook_with_decorative_cover:: Es la parte fundamental del challenge, crea el foro o la consulta que tiene un usuario en el sistema.
 6. Tabla responses :receipt:: Contiene las respuestas a cada de los tópicos del sistema.
 
