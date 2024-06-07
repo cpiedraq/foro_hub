@@ -1,6 +1,6 @@
 # Proyecto Foro Alura
 
-Foro Hub es un Web API creado en Java Spring, que se basa en REST, corresponde a un requisito para la formación de 'BacKEnd' de #OracleOne y #Alura.
+Foro Hub es un Web API creado en Java Spring, que se basa en REST, corresponde a un requisito para la formación de `BacKEnd` de #OracleOne y #Alura.
 
 <h2>Base de datos</h2>
 
@@ -11,7 +11,11 @@ Este API se conecta a una base de datos MySQL, la cuàl contiene una serie de ta
 3. Tabla profile: Contiene los diferentes tipos de perfiles de los usuarios (Administrator, Expert, Junior)
 4. Tabla user: Contiene los usuarios que crean tópicos, respuestas a esos tópicos.
 5. Tabla topic: Es la parte fundamental del challenge, crea el foro o la consulta que tiene un usuario en el sistema.
-6. Tabla responses: Contiene las respuestas a cada de los tópicos del sistema
+6. Tabla responses: Contiene las respuestas a cada de los tópicos del sistema.
+
+El modelo de base de datos se observa de la siguiente manera:
+
+<img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/database.png" alt="Esquema de base de datos">
 
 <h2>Métodos del Web API</h2>
 
@@ -25,7 +29,7 @@ A continuaciòn se adjuntan diversas imágenes del proyecto:
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/0.png" alt="Entorno de desarrollo">
 
-- Métodos del Web API, documentación mediante 'Swagger UI'.
+- Métodos del Web API, documentación mediante `Swagger UI`.
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/1.png" alt="Metodos 1">
 
@@ -33,7 +37,7 @@ A continuaciòn se adjuntan diversas imágenes del proyecto:
 
 <h2>Autenticación</h2>
 
-- Para utilizar los mètodos del Web API es necesario autenticarse, se utiliza JWT para realizarlo, lo debe de realizar en el método 'POST' de la ruta '/login'
+- Para utilizar los mètodos del Web API es necesario autenticarse, se utiliza JWT para realizarlo, lo debe de realizar en el método `POST` de la ruta `/login`
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/token.png" alt="Autenticarse">
 
@@ -47,7 +51,7 @@ A continuaciòn se adjuntan diversas imágenes del proyecto:
 
 <h3>Mètodos màs utilizados del Web API</h3>
 
-- Este es un ejemplo del metodo GET de la ruta /topics, que retorna todos los tópicos y las respuestas que le han brindado al mismo.
+- Este es un ejemplo del método GET de la ruta /topics, que retorna todos los tópicos y las respuestas que le han brindado al mismo.
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/5.png" alt="Metodo GET topics">
 
@@ -65,7 +69,7 @@ A continuaciòn se adjuntan diversas imágenes del proyecto:
 
 ------------------------
 
-<h3>Tecnologías Utilizadas</h3>
+<h3>`Tecnologías Utilizadas`</h3>
 
 - Lombok
 - JDK 17.
