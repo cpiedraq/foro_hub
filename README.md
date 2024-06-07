@@ -1,10 +1,10 @@
 # Proyecto Foro Alura
 
-Foro Hub es un Web API creado en Java Spring, que se basa en REST, corresponde a un requisito para la formación de BacKEnd de #OracleOne y #Alura
+Foro Hub es un Web API creado en Java Spring, que se basa en REST, corresponde a un requisito para la formación de 'BacKEnd' de #OracleOne y #Alura.
 
-<h3>Base de datos</h3>
+<h2>Base de datos</h2>
 
-Consiste en una API que se conecta a una base de datos MySQL que contiene una serie de tablas, las cuales se detallan a continuación: 
+Este API se conecta a una base de datos MySQL, la cuàl contiene una serie de tablas, se detallan a continuación: 
 
 1. Tabla course: Contiene los cursos que se imparten en el foro.
 2. Tabla status: Contiene el estado de los tópicos (Active, Inactive)
@@ -13,35 +13,35 @@ Consiste en una API que se conecta a una base de datos MySQL que contiene una se
 5. Tabla topic: Es la parte fundamental del challenge, crea el foro o la consulta que tiene un usuario en el sistema.
 6. Tabla responses: Contiene las respuestas a cada de los tópicos del sistema
 
-<h3>Métodos del Web API</h3>
+<h2>Métodos del Web API</h2>
 
-La función principal es crear una tópico o una consulta para uno de los cursos y que otros usuarios puedan ayudarle dando respuestas a esa consulta.
+La función principal de este Web API es crear una tópico(consulta del foro) para uno de los cursos y que otros usuarios puedan ayudarle mediante respuestas.
 
-Este Web API permite consultar, crear, modificar y eliminar tópicos, respuestas. Y permite consultar, crear y modificar usuarios.
+El mismo permite consultar, crear, modificar y eliminar tópicos, respuestas. Y permite consultar, crear y modificar usuarios.
 
-A continuaciòn se adjuntan diversas imagenes del proyecto:
+A continuaciòn se adjuntan diversas imágenes del proyecto:
 
-- Entorno de desarrollo
+- Entorno de desarrollo en ejecución. 
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/0.png" alt="Entorno de desarrollo">
 
-- Métodos del Web API, documentación mediante Swagger UI
+- Métodos del Web API, documentación mediante 'Swagger UI'.
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/1.png" alt="Metodos 1">
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/2.png" alt="Metodos 2">
 
-<h3>Autenticación</h3>
+<h2>Autenticación</h2>
 
-- Para utilizar los metodos del Web API es necesario autenticarse, esta API utiliza JWT para realizarlo, lo debe de realizar en el método POST de la ruta /login
+- Para utilizar los mètodos del Web API es necesario autenticarse, se utiliza JWT para realizarlo, lo debe de realizar en el método 'POST' de la ruta '/login'
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/token.png" alt="Autenticarse">
 
-- Una vez generado el token deberà de utilizarse en la sección Authorize.
+- Una vez generado el token deberà de utilizarse en la sección Authorize (Swagger UI).
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/3.png" alt="Autenticarse">
 
-- Una vez autenticado podra consumir los mètodos
+- Una vez verificado el token podra consumir los mètodos de 'GET', 'POST', 'PUT', 'DELETE'.
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/4.png" alt="Autenticarse">
 
