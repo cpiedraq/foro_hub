@@ -26,7 +26,11 @@ A continuaciòn se adjuntan diversas imagenes del proyecto:
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/2.png" alt="Metodos 2">
 
-- Para utilizar los metodos del Web API es necesario autenticarse, esta aplicaciòn utilizando JWT para realizarlo.
+- Para utilizar los metodos del Web API es necesario autenticarse, esta aplicaciòn utilizando JWT para realizarlo, lo debe de realizar en el método POST de la ruta /login
+
+<img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/token.png" alt="Autenticarse">
+
+- Una vez generado el token deberà de utilizarse en la sección Authorize.
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/3.png" alt="Autenticarse">
 
@@ -39,6 +43,17 @@ A continuaciòn se adjuntan diversas imagenes del proyecto:
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/5.png" alt="Metodo GET topics">
 
 - En la siguiente imagen se observa el método POST para crear un nuevo tópico.
+
+<img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/6.png" alt="Crear un nuevo tópico">
+
+- En la siguiente imagen se observa el método POST para crear una respuesta al tópico creado anteriormente.
+
+<img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/7.png" alt="Crear un nuevo tópico">
+
+- Acà se observa como la consulta al tópico y la respuesta registrada.
+
+<img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/8.png" alt="Crear un nuevo tópico">
+
 ------------------------
 
 # Tecnologías Utilizadas.
