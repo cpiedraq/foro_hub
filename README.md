@@ -23,7 +23,7 @@ La función principal de este Web API es crear una tópico(consulta del foro) pa
 
 El mismo permite consultar, crear, modificar y eliminar tópicos, respuestas. Y permite consultar, crear y modificar usuarios.
 
-A continuaciòn se adjuntan diversas imágenes del proyecto:
+A continuación se adjuntan diversas imágenes del proyecto:
 
 - Entorno de desarrollo en ejecución. 
 
@@ -37,11 +37,11 @@ A continuaciòn se adjuntan diversas imágenes del proyecto:
 
 <h2>:lock: Autenticación</h2>
 
-- Para utilizar los mètodos del Web API es necesario autenticarse, se utiliza JWT para realizarlo, lo debe de realizar en el método `POST` de la ruta `/login`
+- Para utilizar los métodos del Web API es necesario autenticarse, se utiliza JWT para realizarlo, lo debe de realizar en el método `POST` de la ruta `/login`
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/token.png" alt="Autenticarse">
 
-- Una vez generado el token deberà de utilizarse en la sección Authorize (Swagger UI).
+- Una vez generado el token deberá de utilizarse en la sección Authorize (Swagger UI).
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/3.png" alt="Autenticarse">
 
@@ -63,7 +63,7 @@ A continuaciòn se adjuntan diversas imágenes del proyecto:
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/7.png" alt="Crear un nuevo tópico">
 
-- Acà se observa como la consulta :mag: al tópico y la respuesta registrada.
+- Acá se observa como la consulta :mag: al tópico y la respuesta registrada.
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/8.png" alt="Crear un nuevo tópico">
 
