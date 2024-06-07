@@ -1,6 +1,6 @@
-# Proyecto Foro Alura
+# 	:toolbox: Proyecto Foro Alura
 
-Foro Hub es un Web API creado en Java Spring, que se basa en REST, corresponde a un requisito para la formación de `BacKEnd` de #OracleOne y #Alura.
+Foro Hub es un Web API creado :globe_with_meridians: en Java Spring, que se basa en REST, corresponde a un requisito para la formación de `BacKEnd` de #OracleOne y #Alura.
 
 <h2>Base de datos</h2>
 
@@ -17,7 +17,7 @@ El modelo de base de datos se observa de la siguiente manera:
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/database.png" alt="Esquema de base de datos">
 
-<h2>Métodos del Web API</h2>
+<h2>:hammer_and_wrench: Métodos del Web API</h2>
 
 La función principal de este Web API es crear una tópico(consulta del foro) para uno de los cursos y que otros usuarios puedan ayudarle mediante respuestas.
 
@@ -49,7 +49,7 @@ A continuaciòn se adjuntan diversas imágenes del proyecto:
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/4.png" alt="Autenticarse">
 
-<h3>Mètodos màs utilizados del Web API</h3>
+<h2>Mètodos màs utilizados del Web API</h2>
 
 - Este es un ejemplo del método GET de la ruta /topics, que retorna todos los tópicos y las respuestas que le han brindado al mismo.
 
@@ -69,7 +69,7 @@ A continuaciòn se adjuntan diversas imágenes del proyecto:
 
 ------------------------
 
-<h3>`Tecnologías Utilizadas`</h3>
+<h2>Tecnologías Utilizadas</h2>
 
 - Lombok
 - JDK 17.
