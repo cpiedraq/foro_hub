@@ -1,7 +1,8 @@
 # Proyecto Foro Alura
-Literalura es un Web API creado en Java Spring
 
-Consiste en una API que se conecta a una base de datos MySQL que contiene una serie de tablas.
+Foro Hub es un Web API creado en Java Spring, que se basa en REST.
+
+Consiste en una API que se conecta a una base de datos MySQL que contiene una serie de tablas, las cuales se detallan a continuación: 
 
 1. Tabla course: Contiene los cursos que se imparten en el foro.
 2. Tabla status: Contiene el estado de los tópicos (Active, Inactive)
@@ -9,6 +10,8 @@ Consiste en una API que se conecta a una base de datos MySQL que contiene una se
 4. Tabla user: Contiene los usuarios que crean tópicos, respuestas a esos tópicos.
 5. Tabla topic: Es la parte fundamental del challenge, crea el foro o la consulta que tiene un usuario en el sistema.
 6. Tabla responses: Contiene las respuestas a cada de los tópicos del sistema
+
+# Métodos del Web API
 
 La función principal es crear una tópico o una consulta para uno de los cursos y que otros usuarios puedan ayudarle dando respuestas a esa consulta.
 
@@ -26,6 +29,8 @@ A continuaciòn se adjuntan diversas imagenes del proyecto:
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/2.png" alt="Metodos 2">
 
+# Autenticación
+
 - Para utilizar los metodos del Web API es necesario autenticarse, esta aplicaciòn utilizando JWT para realizarlo, lo debe de realizar en el método POST de la ruta /login
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/token.png" alt="Autenticarse">
@@ -37,6 +42,8 @@ A continuaciòn se adjuntan diversas imagenes del proyecto:
 - Una vez autenticado podra consumir los mètodos
 
 <img src="https://github.com/cpiedraq/foro_hub/blob/changes/images/4.png" alt="Autenticarse">
+
+# Mètodos màs utilizados del Web API
 
 - Este es un ejemplo del metodo GET de la ruta /topics, que retorna todos los tópicos y las respuestas que le han brindado al mismo.
 
